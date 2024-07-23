@@ -1,0 +1,132 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header style */
+
+
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  
+}
+
+header .navbar-brand img {
+  margin-right: 10px;
+  border-radius: 15px;
+  margin-top: -15px;
+}
+
+/* Footer style */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Main container style */
+.container {
+  margin-top: 20px;
+}
+
+/* Projects and About section style */
+#projects, #about {
+  padding: 20px 0;
+}
+
+/* Project card style */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
+
+/* About section style */
+#about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center;
+  }
+  .navbar-nav .nav-item {
+      margin-bottom: 10px;
+  }
+  .card {
+      margin-bottom: 20px;
+  }
+}
+#About section style
+#about h2, #about h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #343a40;
+  text-align: right;
+}
+
+#about p, #about ul {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: right;
+}
+
+#about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: right;
+ 
+}
